@@ -8,9 +8,19 @@
 </head>
 <body>
   <form class="search-form" id="search-form">
-    <input type="text" name="query" autocomplete="off" placeholder="Search images..." />
+    <input class="input" type="text" name="query" autocomplete="off" placeholder="Search images..." />
   </form>
-  <button type="button" class="btn btn-primary" data-action="load-more">Load more</button>
+  
+
+  <ul class="gallery"></ul>
+
+  <button 
+       type="button" 
+       class="btn-primary" 
+        data-action="load-more" >
+  <span class="spinner " role="status" aria-hidden="true"></span> 
+  <span class="label">Load more</span>
+  </button>
 </body>
 
 </html>

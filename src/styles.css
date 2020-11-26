@@ -13,3 +13,96 @@ body {
     Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
+
+.search-form{
+  margin: 50px;
+}
+.input{
+  width: 500px;
+  height: 50px;
+  background-size: 3px;
+  border-color: rgb(7, 2, 1);
+  border-radius: 4px;
+   font-size: 25px;
+}
+
+input::placeholder{
+  font-size: 20px;
+  color: rgb(177, 171, 171);
+
+}
+.gallery{
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+margin-left: 0px;
+margin-right: 0px;
+padding-right: 0px;
+list-style-type: none;
+}
+.img-card{
+   width:350px;
+  height: 230px;
+}
+.stats{
+  display: flex;
+  
+  justify-content: center;
+}
+
+.stats-item{
+  margin-right: 16px;
+  
+  
+}
+.photo-card{
+ 
+  height: 300px;
+  border:  2px solid rgb(10, 10, 10);
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.btn-primary{
+  display: block;
+  color: rgb(248, 246, 246);
+  width: 250px;
+  height: 50px;
+  background-color: rgb(49, 105, 209);
+  border-color: rgb(43, 43, 168);
+  border-radius: 10px;
+  margin-left:  auto;
+  margin-right: auto;
+  
+}
+ .is-hidden{
+  display: none;
+}
+.button> .spinner.is-hidden{
+  display: none;
+}
+
+.spinnerf{
+ 
+  width: 80px;
+  height: 80px;
+}
+.spinner:after {
+  content: " ";
+   display: inline-flex;
+  width: 30px;
+  height: 30px;
+ 
+  border-radius: 50%;
+  border: 4px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
